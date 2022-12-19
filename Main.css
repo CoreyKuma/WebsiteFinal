@@ -1,0 +1,228 @@
+/*
+   Corey Hebert Final
+
+    Author: Corey Hebert
+    Date: 12/20/2022
+
+   Filename: Main.css
+   Supporting Files: 
+
+*/
+
+body, article, aside, figure, footer, header, nav, section
+{
+    display: block;
+}
+
+body
+{
+	display: block;
+	max-width: 1200px;
+	background-color: white;
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.responsive
+{
+	position: absolute;
+	max-width: 100%;
+	height: auto;
+	border: 2px solid red;
+}
+
+/*nav .stryker-name
+{
+	font-size: 26px;
+	text-align: center;
+	border: red solid 5px;
+	animation-name: stryker-name;
+}
+
+@keyframes stryker-name
+{
+from {opacity: 0%; top: 0px}
+to {opacity: 0%; top: 0px}
+}
+
+.stryker
+{
+	opacity: 50%;
+	position: absolute;
+	width: 46%;
+	position: relative;
+	top: 220px;
+	left: 0px;
+	border: 1px solid #000000;
+}*/
+
+.stryker 
+{
+  position: relative;
+}
+.stryker 
+{
+	width: 40%;
+	height: 100%;
+	display: block;
+	position: absolute;
+	left: -50px;
+	top: 240px;
+	opacity: 0%;
+	padding-top: 6px;
+	/*border: red solid 2px;*/
+	transform: scale(0.5,0.5);
+}
+
+.stryker:hover 
+{
+	animation-direction: normal;
+	animation-duration: 1s;
+	filter: brightness(120%);
+	animation-name: stryker;
+	transition: 1s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes stryker
+{
+	from {opacity: 0%; transform: scale(0.8, 0.8)}
+	to {opacity: 100%; transform: scale(1.1, 1.1)}
+}
+
+.richace 
+{
+	position: relative;
+}
+.richace 
+{
+	width: 30%;
+	height: 100%;
+	display: block;
+	position: absolute;
+	left: 380px;
+	top: 200px;
+	opacity: 0%;
+	/*border: blue solid 2px;*/
+	transform: scale(0.5,0.5);
+}
+
+.richace:hover 
+{
+	animation-direction: normal;
+	animation-duration: 1s;
+	filter: brightness(120%);
+	animation-name: richace;
+	transition: 1s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes richace
+{
+from {opacity: 0%; transform: scale(0.8, 0.8)}
+to {opacity: 100%; transform: scale(1.1, 1.1); top: 40px}
+}
+
+.trix 
+{
+  position: relative;
+}
+.trix
+{
+	width: 30%;
+	height: 95%;
+	display: block;
+	position: absolute;
+	left: 640px;
+	top: 260px;
+	opacity: 0%;
+	padding-top: 6px;
+	/*border: pink solid 2px;*/
+	transform: scale(0.5,0.5);
+}
+
+.trix:hover 
+{
+	animation-direction: normal;
+	animation-duration: 1s;
+	filter: brightness(120%);
+	animation-name: trix;
+	transition: 1s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes trix
+{
+from {opacity: 0%; transform: scale(0.5, 0.5)}
+to {opacity: 100%; transform: scale(0.9, 0.9); width: 36%; left: 540px; top: 230px}
+}
+
+.zanthus
+{
+  position: relative;
+}
+.zanthus
+{
+	width: 28%;
+	height: 100%;
+	display: block;
+	position: absolute;
+	left: 880px;
+	top: 230px;
+	opacity: 0%;
+	padding-top: 6px;
+	/*border: purple solid 2px;*/
+	transform: scale(0.5,0.5);
+}
+
+.zanthus:hover 
+{
+	animation-direction: normal;
+	animation-duration: 1s;
+	filter: brightness(120%);
+	animation-name: zanthus;
+	transition: 1s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes zanthus
+{
+from {opacity: 0%; transform: scale(0.5, 0.5)}
+to {opacity: 100%; transform: scale(1.1, 1.1); width: 32%; height: 80%; left: 770px; top: 280px;}
+}
+
+.sandra
+{
+  position: relative;
+}
+.sandra
+{
+	width: 30%;
+	height: 100%;
+	display: block;
+	position: absolute;
+	left: 1100px;
+	top: 240px;
+	opacity: 0%;
+	padding-top: 6px;
+	/*border: green solid 2px;*/
+	transform: scale(0.5,0.5);
+}
+
+.sandra:hover 
+{
+	animation-direction: normal;
+	animation-duration: 1s;
+	filter: brightness(120%);
+	animation-name: sandra;
+	transition: 1s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes sandra
+{
+from {opacity: 0%; transform: scale(0.5,0.5)}
+to {opacity: 100%; transform: scale(1.1, 1.1);}
+}
+ 

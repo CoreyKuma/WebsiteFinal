@@ -1,0 +1,282 @@
+/*
+   Corey Hebert Final
+
+    Author: Corey Hebert
+    Date: 12/20/2022
+
+   Filename: Stryker.css
+   Supporting Files: 
+
+*/
+
+body, header, section
+{
+	display: block;
+}
+
+* 
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	display: block;
+	justify-content: center;
+	background: url(characters.png) no-repeat;
+	background-position: top;
+	background-size: 100% auto;
+	max-width: 1200px;
+	max-height: 800px;
+}
+
+.overlay 
+{
+	display: block;
+	position: fixed;
+    background-color: rgba(0,0,0,.8);
+	width: 100%;
+	height: 100%;
+	border: 5px solid black;
+}
+
+header
+{
+	display: box;
+	justify-content: center;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 20px;
+}
+
+h2, h3
+{
+	font-weight: bold;
+	text-align: center;
+	color: white;
+}
+
+.info
+{
+	background-color: rgba(255,255,255,0.0);
+	float: right;
+	right: -215px;
+	position: relative;
+	top: 200px;
+	background-color: rgba(0,0,0,0);
+}
+
+.information 
+{
+	opacity: 0.0;
+	position: relative;
+    background-color: rgba(255,255,255,.6);
+	border: 5px solid black;
+	width: 420px;
+	height:100%;
+	animation-direction: normal;
+	animation-duration: 3s;
+	animation-delay: 1s;
+	animation-name: information;
+	animation-fill-mode: forwards;
+}
+
+@keyframes information
+{
+	from {opacity: 0%; right: -200px;}
+	to {opacity: 100%; right: 0px;}
+}
+
+.menu
+{
+	display: block;
+	float: right;
+	right: -536px;
+	position: relative;
+	opacity: 0.0;
+	color: white;
+	text-shadow: white 1px 0 10px;
+	font-size: 26px;
+	animation-direction: normal;
+	animation-duration: 3s;
+	animation-delay: 1s;
+	animation-name: navigation;
+	animation-fill-mode: forwards;
+}
+
+.menu a
+{
+	text-decoration: none;
+	color: white;
+}
+
+.menu a:hover
+{
+	text-shadow: white 1px 0 20px;
+}
+
+@keyframes navigation
+{
+	from {opacity: 0%; top: 650px;}
+	to {opacity: 100%; top: 480px;}
+}
+
+.prevNext
+{
+	display: block;
+	float: right;
+	left: 794px;
+	position: relative;
+	opacity: 0.0;
+	color: white;
+	text-shadow: white 1px 0 10px;
+	font-size: 26px;
+	animation-direction: normal;
+	animation-duration: 3s;
+	animation-delay: 1s;
+	animation-name: prevNext;
+	animation-fill-mode: forwards;
+}
+
+.prevNext a
+{
+	text-decoration: none;
+	color: white;
+}
+
+.previous
+{
+	margin-right: 100px;
+	float: left;
+}
+
+.pArrow
+{
+	width: 30px;
+	height: 30px;
+	float: left;
+	transform: rotateY(180deg);
+	margin-right: 5px;
+}
+
+.next
+{
+	float: right;
+}
+
+.nArrow
+{
+	width: 30px;
+	height: 30px;
+	float: right;
+	margin-left: 5px;
+}
+
+@keyframes prevNext
+{
+	from {opacity: 0%; top: 700px;}
+	to {opacity: 100%; top: 520px;}
+}
+
+article h3, article p
+{
+	font-size: 26px;
+	font-weight: bold;
+	text-align: center;
+}
+
+article p
+{
+	font-size: 20px;
+}
+
+ul
+{
+	padding-left: 15px;
+	margin: 15px;
+}
+
+li
+{
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+
+.stryker
+{
+	position: relative;
+	float: left;
+	top: 100px;
+	width: 36%;
+	height: 90%;
+	animation-direction: normal;
+	animation-duration: 3s;
+	filter: brightness(110%);
+	animation-name: slidein;
+	animation-fill-mode: forwards;
+}
+ 
+.richace
+{
+	position: relative;
+	float: left;
+	top: -120px;
+	width: 32%;
+	height: 110%;
+	animation-direction: normal;
+	animation-duration: 3s;
+	filter: brightness(110%);
+	animation-name: slidein;
+	animation-fill-mode: forwards;
+}
+
+.trix
+{
+	position: relative;
+	float: left;
+	top: 180px;
+	width: 36%;
+	height: 70%;
+	animation-direction: normal;
+	animation-duration: 3s;
+	filter: brightness(110%);
+	animation-name: slidein;
+	animation-fill-mode: forwards;
+}
+
+.zanthus
+{
+	position: relative;
+	float: left;
+	top: 115px;
+	width: 46%;
+	transform: rotateY(180deg);
+	height: 80%;
+	animation-direction: normal;
+	animation-duration: 3s;
+	filter: brightness(110%);
+	animation-name: slidein;
+	animation-fill-mode: forwards;
+}
+
+.sandra
+{
+	position: relative;
+	float: left;
+	top: 170px;
+	width: 30%;
+	transform: rotateY(180deg);
+	height: 86%;
+	animation-direction: normal;
+	animation-duration: 3s;
+	filter: brightness(110%);
+	animation-name: slidein;
+	animation-fill-mode: forwards;
+}
+
+@keyframes slidein
+{
+from {opacity: 0%; left: -300px;}
+to {opacity: 100%; left: -60px;}
+}
