@@ -1,1 +1,7 @@
-www.coreyfinal.com
+$dig WWW.coreyfinal.com +nostats +nocomments +nocmd
+;WWW.coreyfinal.com.   IN  A
+WWW.coreyfinal.com.    26728 IN CNAME  CoreyKuma.github.io.
+CoreyKuma.github.io.   1527    IN  A   185.199.108.153
+CoreyKuma.github.io.   1527    IN  A   185.199.111.153
+CoreyKuma.github.io.   1527    IN  A   185.199.110.153
+CoreyKuma.github.io.   1527    IN  A   185.199.109.153
